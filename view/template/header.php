@@ -1,3 +1,7 @@
+<?php
+	$root = $_SERVER["DOCUMENT_ROOT"];
+	include($root.'/controller/steamauth.php');
+?>
 <nav>
   <div class="nav-wrapper blue-grey darken-4">
     <ul id="nav-mobile" class="left hide-on-med-and-down">
@@ -8,7 +12,7 @@
     <a href="#" class="brand-logo center">Beli Skin</a>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
       <li><a href="">Get Started</a></li>
-      <li><a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>login</a></li>
+      <li><?php (!isset($_SESSION['steamid']) ? loginbutton() :logoutbutton()) ?></li>
     </ul>
   </div>
 </nav>
