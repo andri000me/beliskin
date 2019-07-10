@@ -5,11 +5,7 @@
   background-color: #151f2b;
   background-repeat: no-repeat,no-repeat;
   min-height: 2400px;
-}
-
-.home :first-child {
-  margin-top: 0px;
-  padding-top: 15px;
+  padding-top: 50px;
 }
 
 .container {
@@ -21,6 +17,11 @@
   font-size: 20px;
   color: #cffbff;
   margin-left: 15px;
-  padding-bottom: 35px;
-  vertical-align: middle;
+}
+
+.welcome-text {
+  color: #29f3db;
+  font-family: Roboto;
+  font-size: 32px;
+  line-height: 45px;
 }

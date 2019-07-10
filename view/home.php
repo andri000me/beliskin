@@ -11,17 +11,27 @@
   <div class="home">
     <div class="container">
 
-      <div class="row">
-        <div class="col s12 m6 l3"></div>
-        <div class="col s12 m6 l3 center">
-          <img class="benefits__img" alt="" imagelazyload="" src="/view/assets/img/home/benefits-item1.svg">
+      <div style="display: flex; justify-content: center;">
+        <div style="display: flex; align-items: center; margin-right: 35px">
+          <img class="" alt="" imagelazyload="" src="/view/assets/img/home/benefits-item1.svg">
           <span class="benefit-text">Commission Free Trading</span>
         </div>
-        <div class="col s12 m6 l3 center">
-          <img class="benefits__img" alt="" imagelazyload="" src="/view/assets/img/home/benefits-item2.svg">
+        <div style="display: flex; align-items: center">
+          <img class="" alt="" imagelazyload="" src="/view/assets/img/home/benefits-item2.svg">
           <span class="benefit-text">100% Secure</span>
         </div>
-        <div class="col s12 m6 l3"></div>
+      </div>
+
+      <div class="row">
+        <div class="col l2"></div>
+        <div class="col l8">
+          <h1 class="welcome-text center">Welcome to a cross-game universe for trading virtual assets. Trade your Steam items now.</h1>
+          <div style="display: flex; justify-content: space-evenly;">
+            <a class="waves-effect waves-light btn-large p72" style="padding: 0 72px;">Buy Items</a>
+            <a class="waves-effect waves-light btn-large p72" style="padding: 0 72px;">Sell Items</a>
+          </div>
+        </div>
+        <div class="col l2"></div>
       </div>
 
     </div>
