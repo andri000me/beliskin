@@ -1,10 +1,14 @@
+html {
+  background-color: #263238;
+}
+
 .home {
   background-image: url('/view/assets/img/home/bg-main-page-v3.jpg'), url('/view/assets/img/home/bg-subscription.svg');
   background-position: center top, 50% 113%;
   background-size: auto 1350px,auto;
   background-color: #151f2b;
   background-repeat: no-repeat,no-repeat;
-  min-height: 2400px;
+  min-height: 87vh;
   padding-top: 50px;
 }
 

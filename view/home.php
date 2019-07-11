@@ -22,11 +22,11 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" style="margin-top: 40px">
         <div class="col l2"></div>
         <div class="col l8">
           <h1 class="welcome-text center">Welcome to a cross-game universe for trading virtual assets. Trade your Steam items now.</h1>
-          <div style="display: flex; justify-content: space-evenly;">
+          <div style="display: flex; justify-content: space-evenly; margin-top: 80px">
             <a class="waves-effect waves-light btn-large p72" style="padding: 0 72px;">Buy Items</a>
             <a class="waves-effect waves-light btn-large p72" style="padding: 0 72px;">Sell Items</a>
           </div>
